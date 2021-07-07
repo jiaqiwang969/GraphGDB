@@ -1,11 +1,13 @@
 import React, {ReactElement} from 'react';
+import Container from './Container';
 
 const Navbar: React.FC = (): ReactElement => {
   return (
-    <div>
+    <Container>
       <div></div>
-    </div>
+    </Container>
   );
 };
 
 export default Navbar;
+
