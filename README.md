@@ -1,3 +1,28 @@
+# 目的： 设计出gdb过程中的list可视化过程，帮助理解C++ STL
+
+一开始对Typescript代码一无所知，因此，从类似的实现KarimElghamry/GraphAV，vadimcn / vscode-lldb，hediet /vscode-debug-visualizer汲取经验。
+
+启动！（计划2天时间）
+
+
+
+Material:
+- node v16.3.0
+- npm 7.15.1
+- mac arm64
+
+code: 
+```
+npx create-react-app --template typescript graphgdb
+
+```
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
