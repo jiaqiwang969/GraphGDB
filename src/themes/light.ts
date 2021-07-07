@@ -1,30 +1,28 @@
 import {Theme} from '../models/Theme';
 
-const light: Theme = {
+const dark: Theme = {
   navbar: {
-    background: '#0D1929',
+    background: '#02E095',
     foreground: 'white',
   },
   sidebar: {
-    background: '#0D1929',
-    foreground: '#02E095',
+    background: 'white',
+    foreground: '#0D1929',
   },
   canvas: {
-    background: '#EFEFEF',
-    foreground: '',
+    background: '#0D1929',
   },
   nodeActive: {
     background: '#02E095',
     foreground: 'white',
   },
   nodeInactive: {
-    background: '#0D1929',
+    background: 'transparent',
     foreground: 'white',
   },
   edge: {
-    background: '#0D1929',
-    foreground: 'white',
+    background: 'white',
   },
 };
 
-export default light;
+export default dark;
