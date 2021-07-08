@@ -24,6 +24,10 @@ const dark: Theme = {
   edge: {
     background: 'white',
   },
+  slider: {
+    background: '#0D1929',
+    foreground: 'white',
+  }
 };
 
 export default dark;
